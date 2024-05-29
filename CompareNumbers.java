@@ -17,7 +17,7 @@ public class lec3 {
 }*/
 import java.util.Scanner;
 
-public class CompareNumbers {
+public class CompareNumbers{
     public static void main(String[] args) {
         // Create a Scanner object to read input
         Scanner scanner = new Scanner(System.in);
