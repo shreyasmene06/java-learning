@@ -50,7 +50,7 @@ public class lec5 {
 
 
         //inverted half pyramid
-        int n=4;
+      /*   int n=4;
         for(int i=1;i<=n;i++){
             for(int j=1;j<=n-i;j++){
                 System.out.println(" ");
@@ -60,6 +60,60 @@ public class lec5 {
             }
             System.out.println();
             }
+            */
+
+
+        //numbered pyramid
+        /*int n=4;
+        for(int i=1;i<=n;i++){
+            for(int j=1;j<=n-i+1;j++){
+                System.out.print(j+" ");
+
+            }
+            System.out.println();
+        }*/
+
+
+        //floyd's triangle
+        /*int n=5;
+        int num=1;
+        for(int i=1;i<=n;i++){
+            for(int j=1;j<=i;j++){
+                System.out.print(num+" ");
+                num++;
+            }System.out.println();
+        }*/
+        
+
+
+        //0,1 triangle
+        /*int n=5;
+        for(int i=1;i<=n;i++){
+            for(int j=1;j<=i;j++){
+                if((i+j)%2 ==0){
+                    System.out.print("1");
+                }else{
+                    System.out.print("0");
+                }
+            }System.out.println();
+        }*/
+
+        //rhombus
+        /*int n=5;
+        for(int i=1;i<=n;i++){
+            //space
+            for(int j=n;j>=n-i;j--){
+                System.out.print(" ");
+            }
+            for(int j=n;j>=1;j--){
+                System.out.print("*");
+            }
+            System.out.println();
+        }*/
+
+
+        //number pyramid
+        
         }
     
     }
