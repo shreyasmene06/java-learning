@@ -1,5 +1,5 @@
 import java.util.*;
-public class lec2prac {
+public class lec3 {
     public static void main(String[] args){
         Scanner sc = new Scanner (System.in);
         String name=sc.next();
@@ -10,8 +10,7 @@ public class lec2prac {
         int b = sc.nextInt();
         System.err.println(a+b);
         //program to print sum
-        sc.close();
        }
-    
+
     
 }

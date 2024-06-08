@@ -19,7 +19,7 @@ public class lec2 {
         int d =x.nextInt();
         int sum2=c+d;
         System.out.println(sum2);
-        x.close();
+
 
     }
 }
